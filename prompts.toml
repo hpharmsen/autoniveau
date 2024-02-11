@@ -1,0 +1,24 @@
+SYSTEM = "You are a translator. You translate educational texts for car mechanics."
+
+TRANSLATE = """Vertaal de volgende {count} teksten naar {language}.
+
+{translate_str}
+
+Vertaal steeds alleen het deel tussen [[ en ]].
+Als er spaties of leestekens in de tekst staan, hou die dan in tact in de vertaalde tekst.
+
+Vertaal de teksten, maar let op: variabelen, aangeduid met een procentteken (%) aan beide kanten,
+moeten ongewijzigd blijven. Dit betekent dat je de tekst binnen deze variabelen niet vertaalt.
+Bijvoorbeeld, als je de zin 'Hallo %naam%, hoe gaat het?' vertaalt,
+moet de variabele %naam% exact hetzelfde blijven in de vertaalde tekst.
+Zorg ervoor dat alle variabelen in hun oorspronkelijke staat en vorm worden teruggegeven.
+
+Geef de vertaling terug in dezelfde vorm als de originele tekst. Dus:
+
+1 [[Vertaling van de eerste tekst]]
+2 [[Vertaling van de tweede tekst]]
+..
+{count} [[Vertaling van de laatste tekst]]
+
+Vertaal ze alle {count}.
+Geef geen andere input terug dan deze lijst"""

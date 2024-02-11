@@ -1,1 +1,5 @@
 pip-tools
+justai
+python-dotenv
+tiktoken
+lxml
