@@ -1,5 +1,6 @@
 pip-tools
-justai
+justai==3.1.4
 python-dotenv
 tiktoken
 lxml
+justdays
