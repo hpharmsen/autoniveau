@@ -1,4 +1,4 @@
-SYSTEM = "You are a translator. You translate educational texts for car mechanics."
+SYSTEM = "Je bent een vertaler."
 
 TRANSLATE = """Vertaal de volgende {count} teksten naar {language}.
 
